@@ -21,7 +21,9 @@ python main.py
 ## References
 https://github.com/arthurdouillard/incremental_learning.pytorch
 
-## Citation
+If you find this code helpful, please cite our paper:
+
+```bibtex
 @article{song2024rebalancing,
   title={Rebalancing network with knowledge stability for class incremental learning},
   author={Song, Jialun and Chen, Jian and Du, Lan},
