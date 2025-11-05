@@ -1,15 +1,7 @@
-This codebase has developed into a new project that is well-maintained and includes more SOTA methods. Please refer to [RNKS-for-CIL](https://www.sciencedirect.com/science/article/pii/S0031320324002577) for more information.
+This code is based on the article [RNKS-for-CIL](https://www.sciencedirect.com/science/article/pii/S0031320324002577) published in *Pattern Recognition*.  
+If this code is helpful, please feel free to cite it in your related work!
+
 # Implementation of continual learning methods
-This repository implements some continual / incremental / lifelong learning methods by PyTorch.
-
-Especially the methods based on **memory replay**.
-
-- [x] iCaRL: Incremental Classifier and Representation Learning. [[paper](https://arxiv.org/abs/1611.07725)]
-- [x] End2End: End-to-End Incremental Learning. [[paper](https://arxiv.org/abs/1807.09536)]
-- [x] DR: Lifelong Learning via Progressive Distillation and Retrospection. [[paper](http://openaccess.thecvf.com/content_ECCV_2018/html/Saihui_Hou_Progressive_Lifelong_Learning_ECCV_2018_paper.html)]
-- [x] UCIR: Learning a Unified Classifier Incrementally via Rebalancing. [[paper](https://openaccess.thecvf.com/content_CVPR_2019/html/Hou_Learning_a_Unified_Classifier_Incrementally_via_Rebalancing_CVPR_2019_paper.html)]
-- [x] BiC: Large Scale Incremental Learning. [[paper](https://arxiv.org/abs/1905.13260)]
-- [ ] LwM: Learning without Memorizing. [[paper](https://arxiv.org/abs/1811.08051)]
 
 ## Dependencies
 1. torch 1.4.0
