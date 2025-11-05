@@ -1,0 +1,11 @@
+{
+    "prefix": "reproduce",
+    "dataset": "cifar100",
+    "shuffle": true,
+    "init_cls": 20,
+    "increment": 20,
+    "model_name": "PROTOCL",
+    "convnet_type": "protocl",
+    "device": 1,
+    "seed": [30]
+}
