@@ -1,5 +1,4 @@
-This code is based on the article [RNKS-for-CIL](https://www.sciencedirect.com/science/article/pii/S0031320324002577) published in *Pattern Recognition*.  
-If this code is helpful, please feel free to cite it in your related work!
+This is the official code of the article [RNKS-for-CIL](https://www.sciencedirect.com/science/article/pii/S0031320324002577) published in *Pattern Recognition*.  
 
 # Implementation of continual learning methods
 
@@ -20,6 +19,9 @@ python main.py
 
 ## References
 https://github.com/arthurdouillard/incremental_learning.pytorch
+
+
+## Citation
 
 If you find this code helpful, please cite our paper:
 
