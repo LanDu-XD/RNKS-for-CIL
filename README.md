@@ -25,32 +25,17 @@ Especially the methods based on **memory replay**.
 python main.py
 ```
 
-## Results
-**iCaRL**
-
-<img src="https://github.com/zhchuu/continual-learning-reproduce/blob/master/resources/iCaRL_cifar100_10.png" width = "325"/><img src="https://github.com/zhchuu/continual-learning-reproduce/blob/master/resources/iCaRL_cifar100_20.png" width = "325"/><img src="https://github.com/zhchuu/continual-learning-reproduce/blob/master/resources/iCaRL_cifar100_50.png" width = "325"/>
-
-Average accuracies of CIFAR-100 (iCaRL):
-| Increments | Paper reported | Reproduce |
-| :--------: | :------------: | :-------: |
-| 10 classes | 64.1           | 61.93     |
-| 20 classes | 67.2           | 66.24     |
-| 50 classes | 68.6           | 67.65     |
-
-**UCIR**
-
-<img src="https://github.com/zhchuu/continual-learning-reproduce/blob/master/resources/UCIR_CNN_cifar100_5.png" width = "325"/><img src="https://github.com/zhchuu/continual-learning-reproduce/blob/master/resources/UCIR_NCM_cifar100_5.png" width = "325"/><img src="https://github.com/zhchuu/continual-learning-reproduce/blob/master/resources/UCIR_CNN_cifar100_10.png" width = "325"/><img src="https://github.com/zhchuu/continual-learning-reproduce/blob/master/resources/UCIR_NCM_cifar100_10.png" width = "325"/>
-
-## Change log
-- [x] (2020.6.8) Store the data with list instead of np.array to avoid bugs when the image size is different.
-- [x] (2020.7.15) Avoid duplicative selection in constructing exemplars.
-- [x] (2020.10.3) Fix the bug of excessive memory usage.
-- [x] (2020.10.8) Store the data with np.array instead of Python list to obtain faster I/O.
-
-## Some problems
-Q: Why can't I reproduce the results of the paper by this repository?
-
-A: The result of the methods **may be** affected by the incremental order (In my opinion). You can either generate more orders and average their results or increase the number of training iterations (Adjust the hyperparameters).
 
 ## References
 https://github.com/arthurdouillard/incremental_learning.pytorch
+
+## Citation
+@article{song2024rebalancing,
+  title={Rebalancing network with knowledge stability for class incremental learning},
+  author={Song, Jialun and Chen, Jian and Du, Lan},
+  journal={Pattern Recognition},
+  volume={153},
+  pages={110506},
+  year={2024},
+  publisher={Elsevier}
+}
