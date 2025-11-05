@@ -1,4 +1,4 @@
-This codebase has developed into a new project that is well-maintained and includes more SOTA methods. Please refer to RNKS-for-CIL(https://www.sciencedirect.com/science/article/pii/S0031320324002577) for more information.
+This codebase has developed into a new project that is well-maintained and includes more SOTA methods. Please refer to [RNKS-for-CIL](https://www.sciencedirect.com/science/article/pii/S0031320324002577) for more information.
 # Implementation of continual learning methods
 This repository implements some continual / incremental / lifelong learning methods by PyTorch.
 
